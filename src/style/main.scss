@@ -1,0 +1,41 @@
+.santa-subheading {
+	margin-bottom: 46px;
+	color: rgba(255,255,255,0.75);
+	font-size: 15px;
+}
+
+$christmasGreen: #38e051;
+$christmasRed: #f42424;
+$clearBlue: #45B0E5;
+$mainGray: #CFCFCF;
+$darkGray: #444444;
+$font-primary: 'Montserrat', sans-serif;
+
+.backgroundSkew {
+    width: 100vw;
+    height: 700px;
+    background-color: $christmasRed;
+    transform: skewY(10deg);
+    margin-top: -17rem;
+    padding-top: 17rem;
+    border-bottom: 1rem solid $christmasGreen;
+}
+
+.backgroundSkew > * {
+    transform: skewY(-10deg);
+}
+
+.santa-heading {
+	text-align: center;
+	margin: 20px;
+	padding-top: 46px;
+	color: black;
+	font-weight: 700;
+	font-family: $font-primary
+}
+
+.madlib-subheading {
+    margin-bottom: 46px;
+    color: rgba(255,255,255,0.75);
+    font-size: 15px;
+}
