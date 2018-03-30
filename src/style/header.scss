@@ -1,5 +1,23 @@
-.backgroundSkew {
-	width: 100vw;
-	height: 700px;
-	background-color: 
+body {
+	background-image: url("https://www.colourbox.com/preview/1702571-christmas-santa-claus-over-blank-greeting-place-card-with-lift-hand.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+
+}
+
+.santa-heading {
+	text-align: center;
+	margin: 20px;
+	padding-top: 46px;
+	color: $christmasRed;
+	font-weight: 700;
+	font-family: $font-primary;
+}
+
+.santa-subheading {
+	margin-bottom: 46px;
+	color: $darkGray;
+	font-size: 15px;
 }
